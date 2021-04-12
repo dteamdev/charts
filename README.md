@@ -7,7 +7,7 @@
 
 ##### install repository:
 
-    helm repo add dteam https://dteam.github.io/charts
+    helm repo add dteam https://dteamdev.github.io/charts
 
 ##### list available charts:
 
