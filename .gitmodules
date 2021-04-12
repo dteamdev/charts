@@ -5,4 +5,4 @@
 [submodule "sources/multi-gatekeeper"]
 	path = sources/multi-gatekeeper
 	url = https://github.com/dteamdev/multi-gatekeeper
-	branch = master
+	branch = main
