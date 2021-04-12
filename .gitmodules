@@ -6,3 +6,6 @@
 	path = sources/multi-gatekeeper
 	url = https://github.com/dteamdev/multi-gatekeeper
 	branch = main
+[submodule "sources/django-helm"]
+	path = sources/django-helm
+	url = https://github.com/dteamdev/django-helm
