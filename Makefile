@@ -40,6 +40,7 @@ endif
 .PHONY: all pull packages index commit push
 
 all: pull packages index commit push
+create: pull packages index
 
 check:
 	[ -n "${ALLTARGETS}" ]
