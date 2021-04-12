@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  django-helm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-12T21:39:53.386416998+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 7e68257f120a69b88f47822933c97b5c7bc2c03680035a18fff5f8707d5b73a3
+    name: django-helm
+    type: application
+    urls:
+    - https://dteamdev.github.io/charts/django-helm-1.0.0.tgz
+    version: 1.0.0
   multi-gatekeeper:
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2021-04-12T20:43:29.470844487+03:00"
+    created: "2021-04-12T21:39:53.388584371+03:00"
     description: Chart for simplify deploing multiple keycloak-gatekeeper proxies
     digest: 6094a648de7f9e51fd0fe74a42b2b55aecde3a6949a0fe3e0980a50990bbc3fb
     home: https://github.com/sergeyshevch/multi-gatekeeper
@@ -25,4 +36,4 @@ entries:
     urls:
     - https://dteamdev.github.io/charts/multi-gatekeeper-1.2.0.tgz
     version: 1.2.0
-generated: "2021-04-12T20:43:29.468401439+03:00"
+generated: "2021-04-12T21:39:53.383511539+03:00"
