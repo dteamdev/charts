@@ -1,0 +1,8 @@
+[submodule "charts"]
+	path = charts
+	url = https://github.com/dteamdev/charts
+	branch = charts
+[submodule "sources/multi-gatekeeper"]
+	path = sources/multi-gatekeeper
+	url = https://github.com/dteamdev/multi-gatekeeper
+	branch = master
