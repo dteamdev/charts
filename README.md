@@ -1,2 +1,0 @@
-# charts
-Public helm charts
