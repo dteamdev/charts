@@ -9,6 +9,9 @@
 [submodule "sources/django-helm"]
 	path = sources/django-helm
 	url = https://github.com/dteamdev/django-helm
-[submodule "sources/helm-rocketchat"]
-	path = sources/helm-rocketchat
+[submodule "sources/ocketchat"]
+	path = sources/rocketchat
+	url = https://github.com/dteamdev/helm-rocketchat
+[submodule "sources/rocketchat"]
+	path = sources/rocketchat
 	url = https://github.com/dteamdev/helm-rocketchat
