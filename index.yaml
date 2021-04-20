@@ -3,7 +3,7 @@ entries:
   django-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-21T00:26:27.842165344+03:00"
+    created: "2021-04-21T00:38:55.427684824+03:00"
     description: A Helm chart for Kubernetes
     digest: 0c89566e4becfb46c7956c3cd86f77a99aef64b10389d58cfdb0e57f57967850
     name: django-helm
@@ -13,7 +13,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-21T00:26:27.84129102+03:00"
+    created: "2021-04-21T00:38:55.426821235+03:00"
     description: A Helm chart for Kubernetes
     digest: 38b3738c3c5712914b4dbf82320e7039b984bea63349ce15fa4715d4a73e1bcf
     name: django-helm
@@ -23,7 +23,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-21T00:26:27.840420573+03:00"
+    created: "2021-04-21T00:38:55.425908324+03:00"
     description: A Helm chart for Kubernetes
     digest: 606a085698b0c766af7d764afdcd4b14a2f0d52ada67e68fd254555f25708315
     name: django-helm
@@ -33,7 +33,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-21T00:26:27.839333429+03:00"
+    created: "2021-04-21T00:38:55.425112072+03:00"
     description: A Helm chart for Kubernetes
     digest: 0940d501a3c9128a22b4f6feb75cf859da5618b0150d0f379bf5d03b512f3ee4
     name: django-helm
@@ -43,7 +43,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-21T00:26:27.837578349+03:00"
+    created: "2021-04-21T00:38:55.424263141+03:00"
     description: A Helm chart for Kubernetes
     digest: 7c216c8ba7dccd6d6b784f5b1c9b65e658e43311b8c24a1ee51f968bdfaaf34f
     name: django-helm
@@ -53,7 +53,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-21T00:26:27.835878002+03:00"
+    created: "2021-04-21T00:38:55.423440039+03:00"
     description: A Helm chart for Kubernetes
     digest: fa0cd708be76420048956c4fca58b7a3ca21b993212e687b225346d8cdd500a8
     name: django-helm
@@ -63,7 +63,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-21T00:26:27.834155102+03:00"
+    created: "2021-04-21T00:38:55.421434496+03:00"
     description: A Helm chart for Kubernetes
     digest: 7e68257f120a69b88f47822933c97b5c7bc2c03680035a18fff5f8707d5b73a3
     name: django-helm
@@ -74,7 +74,7 @@ entries:
   multi-gatekeeper:
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2021-04-21T00:26:27.842839832+03:00"
+    created: "2021-04-21T00:38:55.428446961+03:00"
     description: Chart for simplify deploing multiple keycloak-gatekeeper proxies
     digest: 6094a648de7f9e51fd0fe74a42b2b55aecde3a6949a0fe3e0980a50990bbc3fb
     home: https://github.com/sergeyshevch/multi-gatekeeper
@@ -96,4 +96,32 @@ entries:
     urls:
     - https://dteamdev.github.io/charts/multi-gatekeeper-1.2.0.tgz
     version: 1.2.0
-generated: "2021-04-21T00:26:27.831983649+03:00"
+  rocketchat:
+  - apiVersion: v2
+    appVersion: 3.13.2
+    created: "2021-04-21T00:38:55.438200336+03:00"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.3.x
+    description: Prepare to take off with the ultimate chat platform, experience the next level of team communications
+    digest: cf10dd6dffb23af8337378d278e9b3294694d6c271a2d74f09d1c0063c096ae2
+    home: https://rocket.chat/
+    icon: https://raw.githubusercontent.com/RocketChat/Rocket.Chat.Artwork/master/Logos/icon.svg
+    keywords:
+    - chat
+    - communication
+    - http
+    - web
+    - application
+    - nodejs
+    - javascript
+    - meteor
+    name: rocketchat
+    sources:
+    - https://github.com/RocketChat/Docker.Official.Image/
+    urls:
+    - https://dteamdev.github.io/charts/rocketchat-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-04-21T00:38:55.418748761+03:00"
